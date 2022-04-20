@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import { meal } from "../../constants";
-
 import "./Intro.css";
+
 
 const Intro = () => {
   const [palyVideo, setPalyVideo] = useState(false);
